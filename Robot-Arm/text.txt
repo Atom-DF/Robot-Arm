@@ -1,0 +1,20 @@
+played around with the values inside of the move_to_location to make it move bit by bit
+no huge movement and only 1 way movement
+for it to move the opposite way we would need to use the first motor to rotate it around.
+for the cube to be held but not squeezed you need to use 0x01,0xff
+
+we are now trying to drop the cube at prescise points (on targets)
+
+we placed the cube and fiddled with the program in order to reset the robot arm then take the cube reset it again
+then drop it off at a certain point and reset again
+
+this is a first step to complete the tower of hanoi problem
+
+
+for the project the biggest problem is the being able to get the positions right on top of each other
+this is a long trial and error process which is hard to
+
+we can make our robot use its predetermine functions to do other things,
+such as writing a curvy line, dance.
+
+Biggest issue is the positioning of the robot to the cubes, isn't consistent...
